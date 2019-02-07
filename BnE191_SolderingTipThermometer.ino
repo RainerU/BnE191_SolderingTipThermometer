@@ -30,8 +30,6 @@ published under the MIT License, see github repository
 
 */
 
-#include <Arduino.h>
-#include <SPI.h>
 #include <U8g2lib.h>
 #include <max6675.h>
 
@@ -88,7 +86,7 @@ void loop(void) {
 		else if (temperature < holdTemperature - thresholdTemperature) mode = 2;
 	} else { // hold mode
 		if (temperature <= stbTemperature) mode = 0;
-		else if (temperature > lastTemperature) {
+		else if (temperature > (lastTemperature+2)) {
 			mode = 1;
 			holdTemperature = temperature; // when switching back to max mode, start with new value
 		}
