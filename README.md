@@ -28,6 +28,10 @@ is good.
 Wiring is trivial. Just connect power (I used a 9V battery and the 5V regulator of the arduino)
 and make the signal connections that you can find in the #define statements.
 
+# Video Reference
+presentation on the German channel "Elektrobits": https://youtu.be/mf1f0h-3HEA
+presentation on the English channel "Bits and Electrons": https://youtu.be/n-b3tQhh6aY
+
 # License
 Copyright (c) 2019 Rainer Urlacher
 
