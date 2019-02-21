@@ -28,6 +28,11 @@ is good.
 Wiring is trivial. Just connect power (I used a 9V battery and the 5V regulator of the arduino)
 and make the signal connections that you can find in the #define statements.
 
+# Libraries
+MAX6675 board for thermocouple: https://github.com/adafruit/MAX6675-library
+
+Display: https://github.com/olikraus/u8g2
+
 # Video Reference
 presentation on the German channel "Elektrobits": https://youtu.be/mf1f0h-3HEA
 
